@@ -1,0 +1,58 @@
+.navbar{
+    top: 0;
+    left: 0;
+    width:100%;
+    background: #8A2387; 
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); 
+    height: 70px;
+    position: fixed;
+    margin-bottom: 150px;
+}
+.navbar-navigation{
+    display: flex;
+    position: relative;
+    height:100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.title{
+    margin-left: 1rem;
+   
+}
+
+.title-style {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.space{
+    flex: 1;
+}
+
+.items-style ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.items-style li{
+    padding: 0 1.5rem;
+}
+
+.link-style{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.link-style:hover,
+.link-style:active{
+    color: orange;
+}

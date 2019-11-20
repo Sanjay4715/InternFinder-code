@@ -1,0 +1,75 @@
+.user-profile-style{
+    height:100vh;
+    margin-top: 5rem;
+    width: 100%;
+    background-image: url('../../../Images/UserProfile.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow:auto;
+
+}
+
+.navbar-wrapper{
+    width: 23%;
+    margin-left:50rem;
+    margin-top:-17rem;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: grey;
+    padding: 3rem 6rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 10px 50px #555;
+    align-items: center;
+}
+
+.content-wrapper{
+    margin-left: 8rem;
+    background-color: grey;
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 6rem;
+    border-radius: 1.5rem;
+    box-shadow: 0px 10px 50px #555;
+    align-items: center;
+}
+
+.item-style{
+    margin-right: 30rem;
+    display: flex;
+    position: relative;
+    height:100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.item-style ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: fixed;
+}
+
+.item-style li{
+    padding: 0 1.5rem;
+}
+
+.UserLink{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.UserLink:hover{
+    color:red;
+}
+
+.UserLink:active{
+    border-style: solid;
+}

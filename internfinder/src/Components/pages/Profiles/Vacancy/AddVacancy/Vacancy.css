@@ -1,0 +1,122 @@
+.addvacancy-wrapper{
+    margin-top:10rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #544a7d;  
+    background: -webkit-linear-gradient(to right, #ffd452, #544a7d); 
+    background: linear-gradient(to right, #ffd452, #544a7d); 
+    padding: 3rem 6rem;
+    border-radius: 1.9rem;
+    box-shadow: 0px 10px 50px #555;
+}
+
+.profileform-wrapper {
+    margin-left:8rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 1.2rem;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+h1{
+    text-align: center;
+    width: 100%;
+    color: #111;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+  
+label {
+    font-size: 1 em;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-weight: bold;
+}
+  
+input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+  
+input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+}
+  
+.post,
+.skills,
+.description,
+.deadline,
+.requiredcandidate{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+.Link-style{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:black;
+}
+
+.Link-style:hover{
+    font-size:3rem;
+}
+.Link-style:active{
+    color:purple;
+}
+
+.vacancy-submit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.vacancy-submit button {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+}
+  
+.vacancy-submit button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+}
+  
+.vacancy-submit small {
+    color: #999;
+    font-weight: lighter;
+ }
+
+.errorStyle{
+    color: red;
+}

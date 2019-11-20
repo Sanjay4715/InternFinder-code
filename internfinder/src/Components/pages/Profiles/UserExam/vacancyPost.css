@@ -1,0 +1,16 @@
+.vacancy{
+    text-align: center;
+}
+/* 
+.line{
+    width: 2px;
+} */
+.applyButton{
+
+    background-color: blue;
+    border-radius: 30px;
+    width: 75px;
+    height: 37px;
+    font-weight: bolder;
+    color: white;
+}

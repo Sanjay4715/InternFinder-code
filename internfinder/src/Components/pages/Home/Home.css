@@ -1,0 +1,30 @@
+.home-style{
+    background-image: url('../../../Images/Img1.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -2.3rem;
+    right: 0;
+    bottom:0;
+    height: 600px;
+}
+.home-style h1,h2{
+    font-weight: bolder;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.home-style h1{
+    color:#E94057;
+    font-size: 10rem;
+    margin-bottom: -2rem;
+}
+.home-style h2{
+    color:#E94057;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-top: 2rem;
+    margin-top:-1rem;
+    padding-left: 21rem;
+}
